@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/home.css"/>
+
+
+    <link href="https://fonts.googleapis.caom" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+</head>
+<body id="iss6">
+<script>
+    function positionButton() {
+        var btn = document.getElementById('i3gz');
+        var rect = document.body.getBoundingClientRect();
+        var rectWidth = rect.width;
+        var btn1width = 0.3, btn1height = 0.1;
+        var posX = 0.1, posY = 0.5;
+        btn.style.width = (rectWidth * btn1width) + 'px';
+        btn.style.height = (rectWidth * btn1height) + 'px';
+        btn.style.left = (rectWidth * posX) + 'px';
+        btn.style.top = (rectWidth * posY) + 'px';
+
+        // vid1
+        var vid1width = 0.367, vid1height = 0.203;
+        var vid1posX = 0.096, vid1posY = 3.632;
+
+        var vid1frame = document.getElementById('io2wc');
+        var vid1 = document.getElementById('icfyc');
+        vid1.style.width = (rectWidth * vid1width) + 'px';
+        vid1.style.height = (rectWidth * vid1height) + 'px';
+        vid1.style.left = (rectWidth * vid1posX) + 'px';
+        vid1.style.top = (rectWidth * vid1posY) + 'px';
+        vid1frame.style.width = (rectWidth * vid1width) + 'px';
+        vid1frame.style.height = (rectWidth * vid1height) + 'px';
+        vid1frame.style.left = (rectWidth * vid1posX) + 'px';
+        vid1frame.style.top = (rectWidth * vid1posY) + 'px';
+
+        // vid2
+        var vid2posX = 0.54;
+
+        var vid2frame = document.getElementById('vid2frame');
+        var vid2 = document.getElementById('vid2');
+        vid2.style.width = (rectWidth * vid1width) + 'px';
+        vid2.style.height = (rectWidth * vid1height) + 'px';
+        vid2.style.left = (rectWidth * vid2posX) + 'px';
+        vid2.style.top = (rectWidth * vid1posY) + 'px';
+        vid2frame.style.width = (rectWidth * vid1width) + 'px';
+        vid2frame.style.height = (rectWidth * vid1height) + 'px';
+        vid2frame.style.left = (rectWidth * vid2posX) + 'px';
+        vid2frame.style.top = (rectWidth * vid1posY) + 'px';
+
+        // btn2youtube
+        var btn2youtube = document.getElementById('btn2youtube');
+        var btn2youtubeWidth = 0.21, btn2youtubeHeight = 0.07;
+        var btn2youtubeX = 0.395, btn2youtubeY = 3.98;
+        btn2youtube.style.width = (rectWidth * btn2youtubeWidth) + 'px';
+        btn2youtube.style.height = (rectWidth * btn2youtubeHeight) + 'px';
+        btn2youtube.style.left = (rectWidth * btn2youtubeX) + 'px';
+        btn2youtube.style.top = (rectWidth * btn2youtubeY) + 'px';
+
+        // btn2blog
+        var btn2blog = document.getElementById('btn2blog');
+        var btn2blogWidth = 0.4, btn2blogHeight = 0.062;
+        var btn2blogX = 0.3, btn2blogY = 5.06;
+        btn2blog.style.width = (rectWidth * btn2blogWidth) + 'px';
+        btn2blog.style.height = (rectWidth * btn2blogHeight) + 'px';
+        btn2blog.style.left = (rectWidth * btn2blogX) + 'px';
+        btn2blog.style.top = (rectWidth * btn2blogY) + 'px';
+
+        // btn2email
+        var btn2email = document.getElementById('btn2email');
+        var btn2emailWidth = 0.4, btn2emailHeight = 0.062;
+        var btn2emailX = 0.3, btn2emailY = 5.135;
+        btn2email.style.width = (rectWidth * btn2emailWidth) + 'px';
+        btn2email.style.height = (rectWidth * btn2emailHeight) + 'px';
+        btn2email.style.left = (rectWidth * btn2emailX) + 'px';
+        btn2email.style.top = (rectWidth * btn2emailY) + 'px';
+
+        // btn2store
+        var btn2store = document.getElementById('btn2store');
+        var btn2storeX = 0.52, btn2storeY = 5.8;
+        btn2store.style.width = (rectWidth * btn1width) + 'px';
+        btn2store.style.height = (rectWidth * btn1height) + 'px';
+        btn2store.style.left = (rectWidth * btn2storeX) + 'px';
+        btn2store.style.top = (rectWidth * btn2storeY) + 'px';
+    }
+
+    window.addEventListener('resize', positionButton);
+    window.addEventListener('DOMContentLoaded', positionButton);
+</script>
+<A type="button" id="i3gz"
+   href="https://play.google.com/store/apps/details?id=com.illegirl.flash_card&pcampaignid=web_share"></A>
+<img id="iw5f" src="assets/img.png"/>
+<video allowfullscreen="allowfullscreen" id="icfyc"></video>
+<iframe allowfullscreen="allowfullscreen" id="io2wc" src="https://www.youtube.com/embed/-IJ30aWxfms"></iframe>
+<video allowfullscreen="allowfullscreen" id="vid2"></video>
+<iframe allowfullscreen="allowfullscreen" id="vid2frame" src="https://www.youtube.com/embed/bHptTkfNlHM"></iframe>
+<A type="button" id="btn2youtube"
+   href="https://www.youtube.com/@Baby_Lingual"></A>
+<A type="button" id="btn2blog"
+   href="https://blog.naver.com/baby_lingual"></A>
+<A type="button" id="btn2email"
+   href="mailto:aebmanhoe@gmail.com"></A>
+<A type="button" id="btn2store"
+   href="https://play.google.com/store/apps/details?id=com.illegirl.flash_card&pcampaignid=web_share"></A>
+</body>
+</html>

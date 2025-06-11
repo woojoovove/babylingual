@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#iw5f {
+    color: black;
+    z-index: 1;
+    width: 100%;
+    background-color: #a48585;
+    display: block;
+    opacity: 1;
+}
+
+#i3gz {
+    z-index: 1;
+    position: absolute;
+    opacity: 1;
+    background-color: #a48585;
+}
+
+#icfyc {
+    position: absolute;
+}
+
+#io2wc {
+    position: absolute;
+}
+
+#vid2 {
+    position: absolute;
+}
+
+#vid2frame {
+    position: absolute;
+}
+
+#btn2youtube {
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    background-color: #a48585;
+}
+
+#btn2blog {
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    background-color: #a48585;
+}
+
+#btn2email {
+    z-index: 1;
+    position: absolute;
+    opacity: 0;
+    background-color: #a48585;
+}
+
+#btn2store {
+    z-index: 1;
+    position: absolute;
+    opacity: 1;
+    background-color: #a48585;
+}
